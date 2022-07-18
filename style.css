@@ -1,0 +1,46 @@
+/* font awasome */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&family=Satisfy&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+
+
+
+.continear {
+    width: 870px;
+    background-color: #fff;
+    margin: auto;
+    padding: 30px;
+
+}
+
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+
+
+}
+
+.players .player img {
+    width: 56px;
+    height: 56px;
+}
+
+.players .player {
+    display: flex;
+    align-items: center;
+}
+
+.player-name {
+    margin-left: 10px;
+    font-size: 18px;
+}
