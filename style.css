@@ -189,6 +189,10 @@ nav .logo img {
         display: none;
     }
 
+    .continear {
+        width: 100%;
+    }
+
     .players,
     .blogs,
     .courses {
