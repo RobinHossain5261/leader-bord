@@ -181,3 +181,29 @@ nav .logo img {
     padding: 5px 10px;
     border-radius: 50px;
 }
+
+/* responsive degine */
+@media screen and (max-width:576px) {
+
+    header {
+        display: none;
+    }
+
+    .players,
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .blogs,
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
