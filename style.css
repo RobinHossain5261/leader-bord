@@ -201,6 +201,10 @@ nav .logo img {
 }
 
 @media screen and (min-width:577px) and (max-width:992px) {
+    .continear {
+        width: 100%;
+    }
+
     .players {
         grid-template-columns: repeat(2, 1fr);
     }
